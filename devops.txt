@@ -1,0 +1,9 @@
+6 Create EKS cluster
+  eksctl create cluster --name mycluster --version 1.22 --node-type t3.micro --nodes 3
+
+7 To delete EKS cluster
+  eksctl delete cluster --name  mycluster
+
+gke firewall command 
+
+gcloud compute firewall-rules create rule1 --allow tcp:8080
